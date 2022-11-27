@@ -6,7 +6,7 @@ function Hero() {
 
     return (
         <>
-            <div className='h-screen'>
+            <div className='h-screen' id='Home'>
                 <Header />
                 <div className='grid lap:grid-cols-6 mx-5 lap:mx-20 lap:my-auto'>
                     <div className='lap:col-span-1'></div>

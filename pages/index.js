@@ -1,6 +1,6 @@
 // import Event from "../components/Event"
-import Hero from "./components/Hero"
-import Layout from "./components/Layout"
+import Hero from "../components/Hero"
+import Layout from "../components/Layout"
 // import Service from "../components/Service"
 // import Copyright from "../components/Shared/Copyright"
 
@@ -14,6 +14,15 @@ export default function Home() {
             <Hero />
           </div>
         </div>
+        {/* <div className="h-screen">
+
+        </div>
+        <div className="h-screen">
+
+        </div>
+        <div className="h-screen">
+
+        </div> */}
         {/*
 
         <div className="container m-auto">

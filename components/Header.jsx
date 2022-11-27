@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 function Header() {
   const Navtool = [
-    { name: "Home", link: "/" },
+    { name: "Home", link: "/#Home" },
     // { name: "About Us", link: "/" },
     // { name: "Trons Scan", link: "https://tronscan.org/#/token20/TFTX25qupppcPaXozmgN3g7udbDwYgEKGo" },
     // { name: "Whitepaper", link: "/img/m20-whitepaper-v2.pdf" },
