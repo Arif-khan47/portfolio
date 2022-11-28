@@ -67,11 +67,7 @@ export default function Home() {
             </div>
           </div>
         </div> */}
-        {/* 
-    <div className="container m-auto">
-    <Testimonial/>
-    <GetApp/>
-  */}
+
 
       </Layout>
     </div>
