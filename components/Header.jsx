@@ -6,13 +6,13 @@ import { useState } from 'react'
 function Header() {
   const Navtool = [
     { name: "Home", link: "/#Home" },
+    { name: "About", link: "/#About" },
+    { name: "Contact", link: "/" },
     // { name: "About Us", link: "/" },
     // { name: "Trons Scan", link: "https://tronscan.org/#/token20/TFTX25qupppcPaXozmgN3g7udbDwYgEKGo" },
     // { name: "Whitepaper", link: "/img/m20-whitepaper-v2.pdf" },
     // { name: "Roadmap", link: "/" },
-    { name: "About", link: "/" },
     // { name: "In The News", link: "/in-the-news" },
-    { name: "Contact", link: "/" },
   ]
   const newTab = [
     // { name: "Trons Scan", link: "/" },
@@ -25,7 +25,7 @@ function Header() {
   return (
     <>
       <div className='container m-auto z-50'>
-        <div className='grid grid-cols-2 lap:grid-cols-12 py-2'>
+        <div className='grid grid-cols-2 lap:grid-cols-12 pt-3 lap:py-5'>
           <div className='col-span-2 lap:col-span-2 flex justify-end'>
             <div className='lap:hidden z-10 mx-10 my-auto' onClick={() => setOpen(!open)}>
               {!open ?

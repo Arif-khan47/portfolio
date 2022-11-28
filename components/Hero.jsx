@@ -22,7 +22,7 @@ function Hero() {
                             />
                         </div>
                     </div>
-                    <div className='col-span-6 lap:col-span-3 my-auto'>
+                    <div data-aos="fade-right" className='col-span-6 lap:col-span-3 my-auto'>
                         <div className='text-black font-bold text-5xl lap:text-8xl text-center lap:text-left lap:pt-32'>Arif Khan</div>
                         <div className='text-black underline text-3xl lap:text-4xl text-center lap:text-left'>Web Developer</div>
                     </div>

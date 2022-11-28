@@ -1,6 +1,7 @@
 // import Event from "../components/Event"
 import Hero from "../components/Hero"
 import Layout from "../components/Layout"
+import About from "../components/About"
 // import Service from "../components/Service"
 // import Copyright from "../components/Shared/Copyright"
 
@@ -14,15 +15,11 @@ export default function Home() {
             <Hero />
           </div>
         </div>
-        {/* <div className="h-screen">
-
+        <div className="bg-black">
+          <div className="container m-auto">
+            <About/>
+          </div>
         </div>
-        <div className="h-screen">
-
-        </div>
-        <div className="h-screen">
-
-        </div> */}
         {/*
 
         <div className="container m-auto">
