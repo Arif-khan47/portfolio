@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
     return (
         <div className='' id='About'>
-            <div className='my-20 grid grid-cols-1 lap:grid-cols-3 mx-10'>
+            <div className='py-20 grid grid-cols-1 lap:grid-cols-3 mx-10'>
                 <div className='col-span-1 m-auto text-4xl justify-between'>
                     About
                 </div>
