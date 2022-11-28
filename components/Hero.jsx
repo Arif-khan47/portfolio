@@ -8,10 +8,11 @@ function Hero() {
         <>
             <div className='h-screen' id='Home'>
                 <Header />
-                <div className='grid lap:grid-cols-6 mx-5 lap:mx-20 lap:my-auto'>
+
+                <div className='grid lap:grid-cols-6 mx-5 lap:mx-20 place-content-center relative top-[10%] lap:top-0'>
                     <div className='lap:col-span-1'></div>
                     <div className='col-span-6 lap:col-span-2'>
-                        <div className='relative h-[20rem] lap:h-[33rem] mx-auto cursor-pointer'>
+                        <div className='relative h-[20rem] tab:h-[30rem] lap:h-[33rem] mx-auto cursor-pointer'>
                             <Image
                                 src='https://res.cloudinary.com/drtldr4nl/image/upload/v1669542753/AK/ak_mdxb23.png'
                                 objectFit='contain'
@@ -26,6 +27,8 @@ function Hero() {
                         <div className='text-black underline text-3xl lap:text-4xl text-center lap:text-left'>Web Developer</div>
                     </div>
                 </div>
+
+
                 <div className='absolute bottom-0 left-0 right-0 text-black my-3'>
                     <div className='text-center font-semibold mb-2 lap:block hidden'>Scroll Down</div>
                     <div className='text-center font-semibold mb-2 lap:hidden'>Swipe Down</div>
