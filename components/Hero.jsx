@@ -12,7 +12,7 @@ function Hero() {
                 <div className='grid lap:grid-cols-6 mx-5 lap:mx-20 place-content-center relative top-[10%] lap:top-0'>
                     <div className='lap:col-span-1'></div>
                     <div className='col-span-6 lap:col-span-2'>
-                        <div className='relative h-[20rem] tab:h-[30rem] lap:h-[33rem] mx-auto cursor-pointer'>
+                        <div className='relative h-[20rem] tab:h-[30rem] lap:h-[33rem] mx-auto'>
                             <Image
                                 src='https://res.cloudinary.com/drtldr4nl/image/upload/v1669542753/AK/ak_mdxb23.png'
                                 objectFit='contain'

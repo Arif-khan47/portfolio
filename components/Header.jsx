@@ -7,7 +7,7 @@ function Header() {
   const Navtool = [
     { name: "Home", link: "/#Home" },
     { name: "About", link: "/#About" },
-    // { name: "Skills", link: "/" },
+    { name: "Skills", link: "/#Skills" },
     // { name: "Experience", link: "/" },
     // { name: "Projects", link: "/" },
     // { name: "achievement", link: "/" },

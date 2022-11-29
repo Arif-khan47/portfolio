@@ -2,7 +2,7 @@
 import Hero from "../components/Hero"
 import Layout from "../components/Layout"
 import About from "../components/About"
-// import Service from "../components/Service"
+import Skills from "../components/Skills" 
 // import Copyright from "../components/Shared/Copyright"
 
 
@@ -18,6 +18,11 @@ export default function Home() {
         <div className="bg-black">
           <div className="container m-auto">
             <About/>
+          </div>
+        </div>
+        <div className="bg-white">
+          <div className="container m-auto">
+            <Skills/>
           </div>
         </div>
         {/*
