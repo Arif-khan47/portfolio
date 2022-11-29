@@ -7,12 +7,12 @@ function Header() {
   const Navtool = [
     { name: "Home", link: "/#Home" },
     { name: "About", link: "/#About" },
-    { name: "Contact", link: "/" },
-    // { name: "About Us", link: "/" },
-    // { name: "Trons Scan", link: "https://tronscan.org/#/token20/TFTX25qupppcPaXozmgN3g7udbDwYgEKGo" },
-    // { name: "Whitepaper", link: "/img/m20-whitepaper-v2.pdf" },
-    // { name: "Roadmap", link: "/" },
-    // { name: "In The News", link: "/in-the-news" },
+    // { name: "Skills", link: "/" },
+    // { name: "Experience", link: "/" },
+    // { name: "Projects", link: "/" },
+    // { name: "achievement", link: "/" },
+    // { name: "Education", link: "/" },
+    // { name: "Contact", link: "/" },
   ]
   const newTab = [
     // { name: "Trons Scan", link: "/" },
@@ -69,7 +69,7 @@ function Header() {
                 </li>
               ))
               }
-              <a href="https://wa.me/+917900027551" target="_blank" rel="noopener noreferrer"><div className='border p-2 rounded-full flex mx-auto border-black duration-500 bg-black hover:bg-transparent lap:w-40 w-44 my-auto mb-5 lap:mb-0 text-white hover:text-black fill-white hover:fill-black'>
+              <a href="https://wa.me/+917506636758" target="_blank" rel="noopener noreferrer"><div className='border p-2 rounded-full flex mx-auto border-black duration-500 bg-black hover:bg-transparent lap:w-40 w-44 my-auto mb-5 lap:mb-0 text-white hover:text-black fill-white hover:fill-black'>
 
                 <svg className="w-8 mx-auto"
                   viewBox="0 0 512 512"
