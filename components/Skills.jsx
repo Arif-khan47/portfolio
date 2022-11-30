@@ -90,7 +90,7 @@ function Skills() {
                 <dir className='lap:hidden h-[3px] my-5 lap:my-0 bg-black'></dir>
                 {
                     personalSkills.map((item, index) => (
-                        <div key={index} className="mx-20 my-5">
+                        <div key={index} className="lap:mx-20 mx-5 my-5">
                             <SkillsCard title={item.name} img={item.img}
                             />
                         </div>
