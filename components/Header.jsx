@@ -12,7 +12,7 @@ function Header() {
     // { name: "Experience", link: "/" },//white
     // { name: "achievement", link: "/" },//black
     // { name: "Education", link: "/" },//white
-    // { name: "Contact", link: "/" },//black
+    { name: "Contact", link: "/#Contact" },
   ]
   const newTab = [
     // { name: "Trons Scan", link: "/" },
