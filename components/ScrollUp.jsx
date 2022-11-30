@@ -29,7 +29,7 @@ export default function ScrollToTop() {
 
 
   return (
-    <div className="fixed bottom-3 right-3 cursor-pointer z-20">
+    <div className="fixed bottom-3 right-3 cursor-pointer z-20 hover:animate-pulse">
       {isVisible && (
         <div onClick={scrollToTop} className='bg-white hover:bg-other stroke-black border-black rounded-full h-16 w-16'>
           <div className="px-1 py-1 text-xl leading-5 px-auto">

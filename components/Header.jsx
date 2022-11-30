@@ -10,7 +10,7 @@ function Header() {
     // { name: "Projects", link: "/" },//black
     // { name: "Experience", link: "/" },//white
     // { name: "achievement", link: "/" },//black
-    // { name: "Education", link: "/" },//white
+    // { name: "Education", link: "/Education" },//white
     { name: "Contact", link: "/#Contact" },
   ]
   const newTab = [
