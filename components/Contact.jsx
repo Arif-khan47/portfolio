@@ -5,7 +5,7 @@ function Contact() {
         <div className='lap:grid grid-cols-1 lap:grid-cols-3 py-20 lap:mx-10 mx-5' id='Contact'>
             <div className='col-span-1 my-auto'>
                 {/* Mail  */}
-                <div className='justify-center lap:justify-start mb-2 flex'>
+                <div data-aos="fade-down" className='justify-center lap:justify-start mb-2 flex'>
                     <svg className="w-8 h-8" viewBox="0 0 512 512">
                         <rect width="416" height="320" x="48" y="96" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" rx="40" ry="40"></rect>
                         <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M112 160l144 112 144-112"></path>
@@ -14,7 +14,8 @@ function Contact() {
                         arifkhan873287@gmail.com
                     </div>
                 </div>
-                <div className='flex justify-center lap:justify-start'>
+                {/* Location  */}
+                <div data-aos="fade-down" className='flex justify-center lap:justify-start'>
                     <svg className="w-8 h-8" viewBox="0 0 512 512">
                         <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M256 48c-79.5 0-144 61.39-144 137 0 87 96 224.87 131.25 272.49a15.77 15.77 0 0025.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137z"></path>
                         <circle cx="256" cy="192" r="48" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"></circle>
@@ -31,7 +32,7 @@ function Contact() {
                     {/* Whatsapp  */}
 
                     <a href="https://wa.me/+917506636758?text=Hey Arif! I got your contact from your portfolio website." target="_blank" rel="noopener noreferrer">
-                        <div className='border rounded-full border-white duration-500 bg-black hover:bg-transparent p-2 my-auto hover:bg-white fill-white hover:fill-black hover:animate-pulse'>
+                        <div data-aos="zoom-in-up" className='border rounded-full border-white duration-500 bg-black hover:bg-transparent p-2 my-auto hover:bg-white fill-white hover:fill-black hover:animate-pulse'>
                             <svg className="w-8 mx-auto"
                                 viewBox="0 0 512 512"
                             >
@@ -46,7 +47,7 @@ function Contact() {
 
                     {/* Instagram  */}
                     <a href="https://www.instagram.com/arif__khan_47/" target="_blank" rel="noopener noreferrer">
-                        <div className='border rounded-full border-white duration-500 bg-black hover:bg-transparent p-2 my-auto hover:bg-white fill-white hover:fill-black hover:animate-pulse'>
+                        <div data-aos="zoom-in-up" className='border rounded-full border-white duration-500 bg-black hover:bg-transparent p-2 my-auto hover:bg-white fill-white hover:fill-black hover:animate-pulse'>
                             <svg className="w-8 mx-auto"
                                 viewBox="0 0 512 512"
                             >
@@ -60,7 +61,7 @@ function Contact() {
 
                     {/* Github  */}
                     <a href="https://github.com/Arif-khan-47" target="_blank" rel="noopener noreferrer">
-                        <div className='border rounded-full border-white duration-500 bg-black hover:bg-transparent p-2 my-auto hover:bg-white fill-white hover:fill-black hover:animate-pulse'>
+                        <div data-aos="zoom-in-up" className='border rounded-full border-white duration-500 bg-black hover:bg-transparent p-2 my-auto hover:bg-white fill-white hover:fill-black hover:animate-pulse'>
                             <svg className="w-8 mx-auto"
                                 viewBox="0 0 512 512"
                             >
@@ -73,7 +74,7 @@ function Contact() {
 
                     {/* Linkedin  */}
                     <a href="https://www.linkedin.com/in/arifkhan47/" target="_blank" rel="noopener noreferrer">
-                        <div className='border rounded-full border-white duration-500 bg-black hover:bg-transparent p-2 my-auto hover:bg-white fill-white hover:fill-black hover:animate-pulse'>
+                        <div data-aos="zoom-in-up" className='border rounded-full border-white duration-500 bg-black hover:bg-transparent p-2 my-auto hover:bg-white fill-white hover:fill-black hover:animate-pulse'>
                             <svg className="w-8 mx-auto"
                                 viewBox="0 0 512 512"
                             >
@@ -86,7 +87,7 @@ function Contact() {
 
                     {/* Twitter  */}
                     <a href="https://twitter.com/arif__khan_47" target="_blank" rel="noopener noreferrer">
-                        <div className='border rounded-full border-white duration-500 bg-black hover:bg-transparent p-2 my-auto hover:bg-white fill-white hover:fill-black hover:animate-pulse'>
+                        <div data-aos="zoom-in-up" className='border rounded-full border-white duration-500 bg-black hover:bg-transparent p-2 my-auto hover:bg-white fill-white hover:fill-black hover:animate-pulse'>
                             <svg className="w-8 mx-auto"
                                 viewBox="0 0 512 512"
                             >
@@ -98,7 +99,7 @@ function Contact() {
 
                     {/* Facebook  */}
                     <a href="https://www.facebook.com/47arifkhan" target="_blank" rel="noopener noreferrer">
-                        <div className='border rounded-full border-white duration-500 bg-black hover:bg-transparent p-2 my-auto hover:bg-white fill-white hover:fill-black hover:animate-pulse'>
+                        <div data-aos="zoom-in-up" className='border rounded-full border-white duration-500 bg-black hover:bg-transparent p-2 my-auto hover:bg-white fill-white hover:fill-black hover:animate-pulse'>
                             <svg className="w-8 mx-auto"
                                 viewBox="0 0 512 512"
                             >
