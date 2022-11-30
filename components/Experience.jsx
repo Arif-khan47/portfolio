@@ -17,8 +17,8 @@ function Experience() {
                 {
                     data.map((item, index) => {
                         return (
-                            <div className='py-10 grid grid-cols-1 lap:grid-cols-3'>
-                                <div key={index} className='col-span-1 m-auto text-4xl justify-between text-black'>
+                            <div key={index} className='py-10 grid grid-cols-1 lap:grid-cols-3'>
+                                <div className='col-span-1 m-auto text-4xl justify-between text-black'>
                                     <a href="/" target="_blank" rel="noopener noreferrer">
                                         <div className='font-bold text-4xl text-center lap:text-left'>{item.company}</div>
                                     </a>
