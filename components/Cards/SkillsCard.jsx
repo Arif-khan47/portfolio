@@ -5,7 +5,6 @@ import Image from 'next/image'
 function SkillsCard({ title, img }) {
     return (
         <div className='flex'>
-
             <div data-aos="zoom-in" className='relative h-10 w-10 lap:h-16 lap:w-16 mr-5 rounded-full hover:border-4'>
                 <Image
                     src={img}

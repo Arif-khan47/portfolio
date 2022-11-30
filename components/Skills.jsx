@@ -51,20 +51,28 @@ const personalSkills = [
         img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669748258/AK/641825_pzcygt.webp'
     },
     {
+        name: 'Windows',
+        img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669788235/AK/3532806_qwdxqx.webp'
+    },
+    {
+        name: 'Ubuntu',
+        img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669788235/AK/1200px-Logo-ubuntu_cof-orange-hex.svg_ftki4x.webp'
+    },
+    {
         name: 'MS Office',
         img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669748369/AK/202-2021032_microsoft-office-icon-png-image-free-download-searchpng_jweeh9.webp'
     },
     {
         name: 'Photography',
-        img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669748482/AK/Circle-icons-camera.svg_wuwfvb.webp'    
+        img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669748482/AK/Circle-icons-camera.svg_wuwfvb.webp'
     },
     {
         name: 'Photoshop',
-        img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669748555/AK/adobe-photoshop-cc-circle-logo-3BE8AF841D-seeklogo.com_eq45kl.webp'    
+        img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669748555/AK/adobe-photoshop-cc-circle-logo-3BE8AF841D-seeklogo.com_eq45kl.webp'
     },
     {
         name: 'Filmora',
-        img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669748637/AK/download_fiiv7t.webp'    
+        img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669748637/AK/download_fiiv7t.webp'
     }
 ]
 
@@ -72,30 +80,43 @@ const personalSkills = [
 
 function Skills() {
     return (
-        <div className='lap:grid lap:grid-cols-2 py-20 mx-5 lap:mx-20' id='Skills'>
-            <div className='lap:col-span-1 text-black'>
-                <div className='lap:text-6xl text-4xl font-semibold mb-5 text-center lap:text-left'>Technical Skills</div>
-                <dir className='lap:hidden h-[3px] my-5 lap:my-0 bg-black'></dir>
-                {
-                    technicalSkills.map((item, index) => (
-                        <div key={index} className="lap:mx-20 mx-5 my-5">
-                            <SkillsCard title={item.name} img={item.img}
-                            />
-                        </div>
-                    ))
-                }
+        <div className='py-20 grid grid-cols-1 lap:grid-cols-3 mx-10' id='Skills'>
+            <div className='col-span-1 m-auto text-4xl justify-between text-black'>
+                Technicals Skills
             </div>
-            <div className='lap:col-span-1 text-black mt-20 lap:mt-0'>
-            <div className='lap:text-6xl text-4xl font-semibold mb-5 text-center lap:text-left'>Personal Skills</div>
-                <dir className='lap:hidden h-[3px] my-5 lap:my-0 bg-black'></dir>
-                {
-                    personalSkills.map((item, index) => (
-                        <div key={index} className="lap:mx-20 mx-5 my-5">
-                            <SkillsCard title={item.name} img={item.img}
-                            />
-                        </div>
-                    ))
-                }
+
+            <div className='col-span-2 lap:flex mb-10'>
+                <div className='lap:h-full lap:w-[7px] h-[3px] my-5 lap:my-0 bg-black'></div>
+                <div className='lap:ml-20 text-black lap:flex lap:flex-row lap:flex-wrap'>
+                    {
+                        technicalSkills.map((item, index) => (
+                            <div key={index} className="mx-3 my-5">
+                                <SkillsCard title={item.name} img={item.img}
+                                />
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
+
+
+
+            <div className='col-span-1 m-auto text-4xl justify-between text-black'>
+                Personal Skills
+            </div>
+
+            <div className='col-span-2 lap:flex'>
+                <div className='lap:h-full lap:w-[6px] h-[3px] my-5 lap:my-0 bg-black'></div>
+                <div className='lap:ml-20 text-black lap:flex lap:flex-row lap:flex-wrap'>
+                    {
+                        personalSkills.map((item, index) => (
+                            <div key={index} className="mx-3 my-5">
+                                <SkillsCard title={item.name} img={item.img}
+                                />
+                            </div>
+                        ))
+                    }
+                </div>
             </div>
         </div>
     )
