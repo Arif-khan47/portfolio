@@ -4,6 +4,9 @@ import About from "../components/About"
 import Skills from "../components/Skills"
 import Contact from "../components/Contact"
 import Education from "../components/Education"
+import Achievement from "../components/Achievement"
+import Experience from "../components/Experience"
+
 
 
 export default function Home() {
@@ -25,11 +28,33 @@ export default function Home() {
             <Skills />
           </div>
         </div>
+
+
+        {/* <div className="bg-black">
+          <div className="container m-auto">
+            <Projects/>
+          </div>
+        </div> */}
+
+        <div className="bg-white">
+          <div className="container m-auto">
+            <Experience />
+          </div>
+        </div>
+
+        <div className="bg-black">
+          <div className="container m-auto">
+            <Achievement />
+          </div>
+        </div>
+
+
         <div className="bg-white">
           <div className="container m-auto">
             <Education />
           </div>
         </div>
+
         <div className="bg-black">
           <div className="container m-auto">
             <Contact />

@@ -8,9 +8,9 @@ function Header() {
     { name: "About", link: "/#About" },
     { name: "Skills", link: "/#Skills" },
     // { name: "Projects", link: "/" },//black
-    // { name: "Experience", link: "/" },//white
-    // { name: "achievement", link: "/" },//black
-    // { name: "Education", link: "/Education" },//white
+    { name: "Experience", link: "/#Experience" },
+    { name: "Achievement", link: "/#Achievement" },
+    { name: "Education", link: "/#Education" },
     { name: "Contact", link: "/#Contact" },
   ]
   const newTab = [
