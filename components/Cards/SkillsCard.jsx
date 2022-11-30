@@ -10,7 +10,7 @@ function SkillsCard({ title, img }) {
                     src={img}
                     objectFit='contain'
                     layout='fill'
-                    className='w-fit h-fit rounded-full'
+                    className='w-fit h-fit rounded-full hover:scale-105'
                     alt='logo'
                 />
             </div>

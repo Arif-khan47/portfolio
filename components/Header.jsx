@@ -8,11 +8,11 @@ function Header() {
     { name: "Home", link: "/#Home" },
     { name: "About", link: "/#About" },
     { name: "Skills", link: "/#Skills" },
-    // { name: "Experience", link: "/" },
-    // { name: "Projects", link: "/" },
-    // { name: "achievement", link: "/" },
-    // { name: "Education", link: "/" },
-    // { name: "Contact", link: "/" },
+    // { name: "Projects", link: "/" },//black
+    // { name: "Experience", link: "/" },//white
+    // { name: "achievement", link: "/" },//black
+    // { name: "Education", link: "/" },//white
+    // { name: "Contact", link: "/" },//black
   ]
   const newTab = [
     // { name: "Trons Scan", link: "/" },
