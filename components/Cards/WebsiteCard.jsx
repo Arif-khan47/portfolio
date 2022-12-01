@@ -19,7 +19,7 @@ function PortfolioWebCard() {
             name:"Mufti Sufyan Portfolio",
             img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669879084/AK/screencapture-muftisufyanmansurpuri-vercel-app-2022-12-01-12_46_12_pu7aov.webp',
             link: 'https://muftisufyanmansurpuri.vercel.app/',
-            logo: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1665502063/msm/logo_rmj1wg.png',
+            logo: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669880761/AK/logo_rmj1wg_z65jix.webp',
         },
 
     ]
