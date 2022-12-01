@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import About from "../components/About"
 import Skills from "../components/Skills"
 import Contact from "../components/Contact"
+import WebsiteCard from "../components/Cards/WebsiteCard"
 import Education from "../components/Education"
 import Achievement from "../components/Achievement"
 import Experience from "../components/Experience"
@@ -30,11 +31,11 @@ export default function Home() {
         </div>
 
 
-        {/* <div className="bg-black">
+        <div className="bg-black">
           <div className="container m-auto">
-            <Projects/>
+            <WebsiteCard/>
           </div>
-        </div> */}
+        </div>
 
         <div className="bg-white">
           <div className="container m-auto">

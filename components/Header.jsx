@@ -7,7 +7,7 @@ function Header() {
     { name: "Home", link: "/#Home" },
     { name: "About", link: "/#About" },
     { name: "Skills", link: "/#Skills" },
-    // { name: "Projects", link: "/" },//black
+    { name: "Projects", link: "/#Projects" },
     { name: "Experience", link: "/#Experience" },
     { name: "Achievement", link: "/#Achievement" },
     { name: "Education", link: "/#Education" },

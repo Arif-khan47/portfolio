@@ -4,6 +4,7 @@ import React from 'react'
 const data = [
     {
         company: 'Zezo Software Pvt. Ltd.',
+        link:'https://zezosoft.com/',
         joinDate: '12 Jul 2022',
         leaveDate: 'Present',
         designation: 'Front End Web Developer',
@@ -19,7 +20,7 @@ function Experience() {
                         return (
                             <div key={index} className='py-10 grid grid-cols-1 lap:grid-cols-3'>
                                 <div className='col-span-1 m-auto text-4xl justify-between text-black'>
-                                    <a href="/" target="_blank" rel="noopener noreferrer">
+                                    <a href={item.link} target="_blank" rel="noopener noreferrer">
                                         <div className='font-bold text-4xl text-center lap:text-left'>{item.company}</div>
                                     </a>
                                     <div className='ml-2 text-xl text-center lap:text-left'>({item.joinDate} - {item.leaveDate})</div>

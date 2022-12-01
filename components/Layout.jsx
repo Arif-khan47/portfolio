@@ -12,27 +12,24 @@ const Layout = ({
         <>
             <Head>
                 <title>{title}</title>
-                
-                    
+
+
 
             </Head>
             {
                 !hideHeader && <nav> <Header />  </nav>
             }
             <main>
-                
+
 
 
                 {children}
             </main>
-            <div className="bg-primary w-full">
-
-        </div>
 
             {
                 !hideFooter && <footer>
                     {/* <Footer /> */}
-                    </footer>
+                </footer>
             }
         </>
     )
