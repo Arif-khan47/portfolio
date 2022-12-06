@@ -38,7 +38,6 @@ function PortfolioWebCard() {
                             <div key={index} data-aos="zoom-in" className='my-5 lap:w-fit w-[70%] mx-auto' >
                                 <a href={item.link}  target="_blank" rel="noopener noreferrer" className=''>
                                     <div className='hidden lap:block my-1 relative lap:w-[23rem] bg-white rounded-md overflow-hidden shadow-2xl hover:border-4 hover:border-white lap:h-[20rem] mx-auto'>
-                                        {/* <img src={item.img} alt='website' className='w-80 rounded-md shadow-2xl hover:border-4 hover:border-primary'/> */}
                                         <div className="image-wrap">
                                             <Image
                                                 src={item.img}
@@ -51,7 +50,6 @@ function PortfolioWebCard() {
 
                                     </div>
                                     <div className='lap:hidden my-1 relative h-20 rounded-md overflow-hidden shadow-2xl hover:border-4 hover:border-white w-[50%] mx-auto'>
-                                        {/* <img src={item.img} alt='website' className='w-80 rounded-md shadow-2xl hover:border-4 hover:border-primary'/> */}
                                             <Image
                                                 src={item.logo}
                                                 alt='Web Design & Development'
