@@ -39,10 +39,10 @@ function Education() {
                             <div key={index} className='py-10 grid grid-cols-1 lap:grid-cols-3'>
                                 <div className='col-span-1 my-auto text-black'>
                                     <div className='text-4xl text-center lap:text-left font-semibold'>
-                                        {item.course}
+                                        <h1>{item.course}</h1>
                                     </div>
                                     <div className='text-2xl text-center lap:text-left'>
-                                        {item.board}
+                                        <h2>{item.board}</h2>
                                     </div>
                                 </div>
 
@@ -50,16 +50,18 @@ function Education() {
                                     <div className='lap:h-full lap:w-[3px] h-[3px] my-5 lap:my-0 bg-black'></div>
                                     <div data-aos="fade-right" className='lap:ml-20  text-black text-center lap:text-left'>
                                         <div className='text-3xl'>
-                                            {item.istitude}
+                                            <h1>
+                                                {item.istitude}
+                                            </h1>
                                         </div>
                                         <div>
-                                            {item.endYear}
+                                            <h2>{item.endYear}</h2>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div data-aos="zoom-in" className='col-span-1 text-2xl font-semibold text-black m-auto'>
-                                    {item.score}
+                                    <h1>{item.score}</h1>
                                 </div>
 
                             </div>

@@ -23,15 +23,16 @@ function Hero() {
                         </div>
                     </div>
                     <div data-aos="fade-right" className='col-span-6 lap:col-span-3 my-auto'>
-                        <div className='text-black font-bold text-5xl lap:text-8xl text-center lap:text-left lap:pt-32'>Arif Khan</div>
-                        <div className='text-black underline text-3xl lap:text-4xl text-center lap:text-left'>Web Developer</div>
+                        <div className='text-black font-bold text-5xl lap:text-8xl text-center lap:text-left lap:pt-32'><h1>Arif Khan</h1></div>
+                        <div className='text-black underline text-3xl lap:text-4xl text-center lap:text-left'><h2>Web Developer</h2></div>
+                        <div className='text-black text-xl lap:text-xl text-center lap:text-left'><h2>Age: 21</h2></div>
                     </div>
                 </div>
 
 
                 <div className='absolute bottom-0 left-0 right-0 text-black my-3'>
-                    <div className='text-center font-semibold mb-2 lap:block hidden'>Scroll Down</div>
-                    <div className='text-center font-semibold mb-2 lap:hidden'>Swipe Down</div>
+                    <div className='text-center font-semibold mb-2 lap:block hidden'><h4>Scroll Down</h4></div>
+                    <div className='text-center font-semibold mb-2 lap:hidden'><h4>Swipe Down</h4></div>
                     <div className='w-5 lap:w-8 mx-auto animate-bounce '><svg
                         x="0px"
                         y="0px"

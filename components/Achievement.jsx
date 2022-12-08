@@ -15,8 +15,10 @@ function Achievement() {
   return (
     <div className='' id='Achievement'>
       <div className='py-20 grid grid-cols-1 lap:grid-cols-3 mx-10'>
-        <div className='col-span-1 m-auto text-4xl justify-between text-white'>
+        <div className='col-span-1 m-auto text-4xl justify-between'>
+          <h1 className='text-white'>
           Achievements
+          </h1>
         </div>
 
         <div className='col-span-2 lap:flex'>
@@ -29,7 +31,8 @@ function Achievement() {
                     return (
                       <a href={item.link} key={index} target="_blank" rel="noopener noreferrer">
                         <li className='hover:underline cursor-pointer mb-2'>
-                          {item.achievements}<div>({item.date})</div>
+                          <h2>{item.achievements}</h2>
+                          <div><h2>({item.date})</h2></div>
                         </li>
                       </a>
                     )
