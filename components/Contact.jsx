@@ -31,7 +31,7 @@ function Contact() {
 
                     {/* Whatsapp  */}
 
-                    <a href="https://wa.me/+917506636758?text=Hey Arif! I got your contact from your portfolio website." target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/+917900027551?text=Hey Arif! I got your contact from your portfolio website." target="_blank" rel="noopener noreferrer">
                         <div data-aos="zoom-in-up" className='border rounded-full border-white duration-500 bg-black hover:bg-transparent p-2 my-auto hover:bg-white fill-white hover:fill-black hover:animate-pulse'>
                             <svg className="w-8 mx-auto"
                                 viewBox="0 0 512 512"

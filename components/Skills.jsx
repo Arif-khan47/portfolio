@@ -53,6 +53,16 @@ const technicalSkills = [
         img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669727301/AK/mongodb_jthqpx.webp',
         alt: 'mongodb'
     },
+    {
+        name: 'Axios',
+        img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1670563591/AK/Axios_qf6bas.webp',
+        alt: 'Axios'
+    },
+    {
+        name: 'Redux',
+        img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1670563712/AK/logo_wxo0fb.webp',
+        alt: 'mongodb'
+    },
 ]
 
 const personalSkills = [
