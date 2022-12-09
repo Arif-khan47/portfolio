@@ -6,6 +6,8 @@ function Contact() {
             <div className='col-span-1 my-auto'>
                 {/* Mail  */}
                 <div data-aos="fade-down" className='justify-center lap:justify-start mb-2 flex'>
+                <a href="mailto:arifkhan873287@gmail.com" target="_blank" rel="noopener noreferrer">
+
                     <svg className="w-8 h-8" viewBox="0 0 512 512">
                         <rect width="416" height="320" x="48" y="96" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" rx="40" ry="40"></rect>
                         <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M112 160l144 112 144-112"></path>
@@ -13,6 +15,7 @@ function Contact() {
                     <div className='text-white my-auto ml-2 text-lg'>
                         arifkhan873287@gmail.com
                     </div>
+                    </a>
                 </div>
                 {/* Location  */}
                 <div data-aos="fade-down" className='flex justify-center lap:justify-start'>
