@@ -99,7 +99,7 @@ function Skills() {
     return (
         <div className='py-20 grid grid-cols-1 lap:grid-cols-3 mx-10' id='Skills'>
             <div className='col-span-1 m-auto text-4xl justify-between text-black'>
-                Technicals Skills
+                <h1>Technicals Skills</h1>
             </div>
 
             <div className='col-span-2 lap:flex mb-10'>

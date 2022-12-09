@@ -2,7 +2,7 @@ import React from 'react'
 
 const data = [
   {
-    link: '/',
+    link: 'https://drive.google.com/file/d/1abUPXTsUFd8MmzrPESSYRBahNflPpux8/view?usp=share_link',
     achievements: 'Got appreciation letter from zezo for my work on project Mission20.',
     date: '1 Oct 2022'
   },

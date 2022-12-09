@@ -14,11 +14,11 @@ function SkillsCard({ title, img, alt }) {
                     alt={alt}
                 />
             </div>
-            <h2>
-                <div data-aos="fade-right" className=' text-black lap:text-4xl text-2xl my-auto'>
+            <div data-aos="fade-right" className={`text-black lap:text-4xl text-2xl my-auto`}>
+                <h2>
                     {title}
-                </div>
-            </h2>
+                </h2>
+            </div>
         </div >
     )
 }
