@@ -60,7 +60,7 @@ const technicalSkills = [
     },
     {
         name: 'Redux',
-        img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1670563712/AK/logo_wxo0fb.webp',
+        img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1670564102/AK/Redux_zx8eqa.webp',
         alt: 'mongodb'
     },
 ]
