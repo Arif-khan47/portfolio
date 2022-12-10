@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div>
       <Layout hideHeader={true}>
-        <div className="bg-white">
+        <div className="bg-black">
           <div className="container m-auto">
             <Hero />
           </div>

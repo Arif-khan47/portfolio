@@ -6,7 +6,7 @@ function Hero() {
 
     return (
         <>
-            <div className='h-screen' id='Home'>
+            <div className='h-screen bg-white hero' id='Home'>
                 <Header />
 
                 <div className='grid lap:grid-cols-6 mx-5 lap:mx-20 place-content-center relative top-[10%] lap:top-0'>
