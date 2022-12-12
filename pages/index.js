@@ -14,11 +14,16 @@ export default function Home() {
   return (
     <div>
       <Layout hideHeader={true}>
-        <div className="bg-black">
+        <div className="bg-white">
           <div className="container m-auto">
             <Hero />
           </div>
         </div>
+        <div className="bg-white -mt-20">
+          <div className='bg-black hero h-20'></div>
+
+        </div>
+
         <div className="bg-black">
           <div className="container m-auto">
             <About />
@@ -33,7 +38,7 @@ export default function Home() {
 
         <div className="bg-black">
           <div className="container m-auto">
-            <WebsiteCard/>
+            <WebsiteCard />
           </div>
         </div>
 

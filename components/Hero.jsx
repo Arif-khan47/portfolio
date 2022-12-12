@@ -6,7 +6,7 @@ function Hero() {
 
     return (
         <>
-            <div className='h-screen bg-white hero' id='Home'>
+            <div className='h-screen' id='Home'>
                 <Header />
 
                 <div className='grid lap:grid-cols-6 mx-5 lap:mx-20 place-content-center relative top-[10%] lap:top-0'>
@@ -14,7 +14,8 @@ function Hero() {
                     <div className='col-span-6 lap:col-span-2'>
                         <div className='relative h-[20rem] tab:h-[30rem] lap:h-[33rem] mx-auto'>
                             <Image
-                                src='https://res.cloudinary.com/drtldr4nl/image/upload/v1669542753/AK/ak_mdxb23.png'
+                                src='https://res.cloudinary.com/drtldr4nl/image/upload/v1670823558/AK/ak_-_Copy_pocdcn.webp'
+                                // src='https://res.cloudinary.com/drtldr4nl/image/upload/v1669542753/AK/ak_mdxb23.png'
                                 objectFit='contain'
                                 layout='fill'
                                 className='w-fit h-fit'
