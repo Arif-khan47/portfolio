@@ -21,7 +21,6 @@ export default function Home() {
         </div>
         <div className="bg-white -mt-20">
           <div className='bg-black hero h-20'></div>
-
         </div>
 
         <div className="bg-black">
@@ -29,17 +28,26 @@ export default function Home() {
             <About />
           </div>
         </div>
+        <div className="lap:invisible bg-black -mt-20">
+          <div className='bg-white hero h-20'></div>
+        </div>
+
         <div className="bg-white">
           <div className="container m-auto">
             <Skills />
           </div>
         </div>
-
+        <div className="bg-white -mt-20">
+          <div className='lap:invisible bg-black hero h-20'></div>
+        </div>
 
         <div className="bg-black">
           <div className="container m-auto">
             <WebsiteCard />
           </div>
+        </div>
+        <div className="lap:invisible bg-black -mt-20">
+          <div className='bg-white hero h-20'></div>
         </div>
 
         <div className="bg-white">
@@ -47,18 +55,26 @@ export default function Home() {
             <Experience />
           </div>
         </div>
+        <div className="bg-white -mt-20">
+          <div className='lap:invisible bg-black hero h-20'></div>
+        </div>
 
         <div className="bg-black">
           <div className="container m-auto">
             <Achievement />
           </div>
         </div>
-
+        <div className="lap:invisible bg-black -mt-20">
+          <div className='bg-white hero h-20'></div>
+        </div>
 
         <div className="bg-white">
           <div className="container m-auto">
             <Education />
           </div>
+        </div>
+        <div className="bg-white -mt-20">
+          <div className='lap:invisible bg-black hero h-20'></div>
         </div>
 
         <div className="bg-black">
@@ -66,7 +82,6 @@ export default function Home() {
             <Contact />
           </div>
         </div>
-
 
       </Layout>
     </div>
