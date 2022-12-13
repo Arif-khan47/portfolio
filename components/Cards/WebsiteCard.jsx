@@ -41,7 +41,7 @@ function PortfolioWebCard() {
                         Card.map((item, index) => (
                             <div key={index} data-aos="zoom-in" className='my-5 w-[90%] mx-auto' >
                                 <a href={item.link} target="_blank" rel="noopener noreferrer" className=''>
-                                    <div className='hidden lap:block my-1 relative lap:w-[100%] bg-white rounded-md overflow-hidden shadow-2xl hover:border-4 hover:border-white lap:h-[20rem] mx-auto'>
+                                    <div className='hidden lap:block my-1 relative lap:w-[100%] bg-white rounded-md overflow-hidden shadow-2xl hover:border-4 hover:border-white lap:h-[18rem] mx-auto'>
                                         <div className="image-wrap">
                                             <Image
                                                 src={item.img}
