@@ -6,6 +6,11 @@ const data = [
     achievements: 'Got appreciation letter from zezo for my work on project Mission20.',
     date: '1 Oct 2022'
   },
+  {
+    link: 'https://drive.google.com/file/d/11Cl9pvHAGZhLxEJ8wWonklsBhh_d3Oc3/view?usp=sharing',
+    achievements: 'Employee of the month (November 2022)',
+    date: '3 Dec 2022'
+  },
 
 ]
 
