@@ -32,7 +32,7 @@ const Layout = ({
             <main>
                 {/* <!-- Google Tag Manager (noscript) --> */}
                 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKGGXW6"
-                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+                    height="0" width="0" id='style1'></iframe></noscript>
                 {/* <!-- End Google Tag Manager (noscript) --> */}
 
 

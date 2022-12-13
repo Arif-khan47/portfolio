@@ -144,3 +144,7 @@ input[type=number]::-webkit-outer-spin-button {
 .hero{
   clip-path: polygon(50% 100%, 100% 0, 100% 100%, 0 100%, 0 0);
 }
+#style1{
+  display:none; 
+  visibility:hidden
+}

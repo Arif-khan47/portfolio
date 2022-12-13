@@ -7,11 +7,10 @@ const data = [
     date: '1 Oct 2022'
   },
   {
-    link: 'https://drive.google.com/file/d/11Cl9pvHAGZhLxEJ8wWonklsBhh_d3Oc3/view?usp=sharing',
-    achievements: 'Employee of the month (November 2022)',
+    link: 'https://drive.google.com/file/d/11Cl9pvHAGZhLxEJ8wWonklsBhh_d3Oc3/view?usp=share_link',
+    achievements: 'Employee of the month. (Nov 2022)',
     date: '3 Dec 2022'
   },
-
 ]
 
 
@@ -22,7 +21,7 @@ function Achievement() {
       <div className='py-20 grid grid-cols-1 lap:grid-cols-3 mx-10'>
         <div className='col-span-1 m-auto text-4xl justify-between'>
           <h1 className='text-white'>
-          Achievements
+            Achievements
           </h1>
         </div>
 
@@ -34,12 +33,15 @@ function Achievement() {
                 {
                   data.map((item, index) => {
                     return (
-                      <a href={item.link} key={index} target="_blank" rel="noopener noreferrer">
-                        <li className='hover:underline cursor-pointer mb-2'>
-                          <h2>{item.achievements}</h2>
-                          <div><h2>({item.date})</h2></div>
-                        </li>
-                      </a>
+                      <div key={index} >
+                        <a href={item.link} target="_blank" rel="noopener noreferrer">
+                          <li className='hover:underline cursor-pointer mb-2 lap:mb-5'>
+                            <h2>{item.achievements}</h2>
+                            <div><h2>({item.date})</h2></div>
+                          </li>
+                        </a>
+
+                      </div>
                     )
                   })
                 }
