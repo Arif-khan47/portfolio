@@ -31,6 +31,14 @@ function PortfolioWebCard() {
             link: 'https://muftisufyanmansurpuri.vercel.app/',
             logo: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669880761/AK/logo_rmj1wg_z65jix.webp',
         },
+        
+        {
+            name: "Xeon",
+            img: 'https://res.cloudinary.com/dgyudczza/image/upload/v1680160723/Portfolio/Website/screencapture-xeon-vercel-app-2023-03-30-12_29_55_k6zprp.png',
+            alt: 'xeon',
+            link: 'https://xeon.vercel.app/',
+            logo: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669880761/AK/logo_rmj1wg_z65jix.webp',
+        },
         {
             name: "Text Converter",
             img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1670223394/AK/screencapture-textconvo-vercel-app-2022-12-05-12_17_36_mbvk4o.webp',
