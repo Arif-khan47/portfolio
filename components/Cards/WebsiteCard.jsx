@@ -37,7 +37,8 @@ function PortfolioWebCard() {
             img: 'https://res.cloudinary.com/dgyudczza/image/upload/v1680160723/Portfolio/Website/screencapture-xeon-vercel-app-2023-03-30-12_29_55_k6zprp.png',
             alt: 'xeon',
             link: 'https://xeon.vercel.app/',
-            logo: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669880761/AK/logo_rmj1wg_z65jix.webp',
+            logo:'https://res.cloudinary.com/dgyudczza/image/upload/v1680165197/Portfolio/D32051A3-8282-4C74-ADBC-F29DD6EC0D49_nw36fx.png',
+
         },
         {
             name: "Text Converter",
