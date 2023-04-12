@@ -25,13 +25,19 @@ function PortfolioWebCard() {
             logo: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669878486/AK/logo03_abwhaz_ju7dug.webp',
         },
         {
+            name: "Zezo.in",
+            img: 'https://res.cloudinary.com/dgyudczza/image/upload/v1681279792/zezo.in/2023_13_16_21_GMT_5_30_nqcsxf.jpg',
+            alt: 'Zezo.in',
+            link: 'https://zezoin.vercel.app/',
+            logo: 'https://res.cloudinary.com/dgyudczza/image/upload/v1680774195/zezo.in/Logo_yrfljm.png_qikx3y.png',
+        },
+        {
             name: "Mufti Sufyan Portfolio",
             img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669879084/AK/screencapture-muftisufyanmansurpuri-vercel-app-2022-12-01-12_46_12_pu7aov.webp',
             alt: 'Mufti Sufyan Mansurpuri',
             link: 'https://muftisufyanmansurpuri.vercel.app/',
             logo: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669880761/AK/logo_rmj1wg_z65jix.webp',
-        },
-        
+        },        
         {
             name: "Xeon",
             img: 'https://res.cloudinary.com/dgyudczza/image/upload/v1680160723/Portfolio/Website/screencapture-xeon-vercel-app-2023-03-30-12_29_55_k6zprp.png',
