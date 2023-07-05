@@ -11,6 +11,13 @@ function PortfolioWebCard() {
             logo: 'https://res.cloudinary.com/dgyudczza/image/upload/v1677216559/muplay/Muplay_cv3hsy.png',
         },
         {
+            name: "Mayvent",
+            img: 'https://res.cloudinary.com/dgyudczza/image/upload/v1688576843/Portfolio/Website/screencapture-localhost-3000-2023-07-05-22_35_05_xf2hkc.png',
+            alt: 'Mayvent',
+            link: 'https://mayvent-task.vercel.app/',
+            logo: 'https://res.cloudinary.com/dgyudczza/image/upload/v1688402995/mayvent/m_nitssu.png',
+        },
+        {
             name: "Zezo Softwares",
             img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669877038/AK/screencapture-zezo-vercel-app-2022-12-01-12_11_11_lvyv83.webp',
             alt: 'Zezosoft / Zezo Softwares',
