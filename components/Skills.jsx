@@ -33,11 +33,11 @@ const technicalSkills = [
         img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669743770/AK/nextjs-boilerplate-logo_v5mp4s.webp',
         alt: 'nextjs'
     },
-    // {
-    //     name: 'Node Js',
-    // img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669743674/AK/1709306_zby54w.webp',
-    // alt: 'node'
-    // },
+    {
+        name: 'Node Js',
+    img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669743674/AK/1709306_zby54w.webp',
+    alt: 'node'
+    },
     {
         name: 'Bootstrap',
         img: 'https://res.cloudinary.com/drtldr4nl/image/upload/v1669727145/AK/93786_bootstrap_512x512_kvdyve.webp',

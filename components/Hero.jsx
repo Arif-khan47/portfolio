@@ -2,7 +2,27 @@ import React from 'react'
 import Header from './Header';
 import Image from 'next/image';
 
+
+function calculateAge(dob) {
+    const dobDate = new Date(dob);
+    const currentDate = new Date();
+
+    let age = currentDate.getFullYear() - dobDate.getFullYear();
+
+    // Check if the birthday hasn't occurred yet in the current year
+    if (currentDate.getMonth() < dobDate.getMonth() ||
+        (currentDate.getMonth() === dobDate.getMonth() && currentDate.getDate() < dobDate.getDate())) {
+        age--;
+    }
+
+    return age;
+}
+
+
 function Hero() {
+
+    const dob = new Date(2001, 9, 18); // Year, month (0-indexed), day
+    const age = calculateAge(dob);
 
     return (
         <>
@@ -26,7 +46,7 @@ function Hero() {
                     <div data-aos="fade-right" className='col-span-6 lap:col-span-3 my-auto'>
                         <div className='text-black font-bold text-5xl lap:text-8xl text-center lap:text-left lap:pt-32'><h1>Arif Khan</h1></div>
                         <div className='text-black underline text-3xl lap:text-4xl text-center lap:text-left'><h2>Web Developer</h2></div>
-                        <div className='text-black text-xl lap:text-xl text-center lap:text-left'><h2>Age: 21</h2></div>
+                        <div className='text-black text-xl lap:text-xl text-center lap:text-left'><h2>Age: {age}</h2></div>
                     </div>
                 </div>
 

@@ -43,34 +43,37 @@ a {
 
 
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  margin: 0; 
+  margin: 0;
 }
+
 .image-wrap {
   overflow: hidden;
   margin: 50px auto;
 }
+
 .image-wrap img {
   object-fit: cover;
   object-position: top center;
   transition: all 1.5s ease-in-out;
 }
+
 .image-wrap:hover img {
   object-position: bottom center;
 }
 
 
-.card{
+.card {
   border-radius: 25px;
   background-color: #FFF;
 }
 
 
-.overlay{
+.overlay {
   position: absolute;
   left: 0;
   top: 0;
@@ -78,8 +81,9 @@ input[type=number]::-webkit-outer-spin-button {
   width: 100%;
   border-radius: 25px 25px 0 25px;
 }
+
 .overlay::before,
-.overlay::after{
+.overlay::after {
   content: '';
   position: absolute;
   right: 0;
@@ -88,7 +92,8 @@ input[type=number]::-webkit-outer-spin-button {
   width: 40px;
   background-color: #880122;
 }
-.overlay::after{
+
+.overlay::after {
   border-radius: 0 25px 0 0;
   background-color: #FFF;
 }
@@ -103,23 +108,25 @@ input[type=number]::-webkit-outer-spin-button {
   overflow: hidden;
   margin: 50px auto;
 }
+
 .image-wrap img {
   object-fit: cover;
   object-position: top center;
   transition: all 1.5s ease-in-out;
 }
+
 .image-wrap:hover img {
   object-position: bottom center;
 }
 
 
-.card{
+.card {
   border-radius: 25px;
   background-color: #FFF;
 }
 
 
-.overlay{
+.overlay {
   position: absolute;
   left: 0;
   top: 0;
@@ -127,8 +134,9 @@ input[type=number]::-webkit-outer-spin-button {
   width: 100%;
   border-radius: 25px 25px 0 25px;
 }
+
 .overlay::before,
-.overlay::after{
+.overlay::after {
   content: '';
   position: absolute;
   right: 0;
@@ -137,14 +145,21 @@ input[type=number]::-webkit-outer-spin-button {
   width: 40px;
   background-color: #880122;
 }
-.overlay::after{
+
+.overlay::after {
   border-radius: 0 25px 0 0;
   background-color: #FFF;
 }
-.hero{
+
+.hero {
   clip-path: polygon(50% 100%, 100% 0, 100% 100%, 0 100%, 0 0);
 }
-#style1{
-  display:none; 
-  visibility:hidden
+
+#style1 {
+  display: none;
+  visibility: hidden
+}
+
+* {
+  scroll-behavior: smooth;
 }
