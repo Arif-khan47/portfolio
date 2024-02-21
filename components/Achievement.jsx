@@ -26,15 +26,15 @@ const data = [
 
 const nonTechData = [
   {
+    link: 'https://drive.google.com/file/d/1J5zbo8dBJtAks8raGwUyiyN7UBTDaz4E/view?usp=sharing',
+    achievements: 'Got certificate for contribution as photography HOD in college fest (Techtris)',
+    date: '18 Mar 2022'
+  },
+  {
     link: 'https://drive.google.com/file/d/1Yq-eqtVZF6sFv1fXpbHysEGBvW5UW-ss/view?usp=sharing',
     achievements: `Awarded "Best Bowler" in Runtime's annual cricket tournament for exceptional bowling performance and sportsmanship.`,
     date: '3 Feb 2023'
   },
-  // {
-  //   link: 'https://drive.google.com/file/d/11Cl9pvHAGZhLxEJ8wWonklsBhh_d3Oc3/view?usp=share_link',
-  //   achievements: 'Employee of the month. (Nov 2022)',
-  //   date: '3 Dec 2022'
-  // },
 ]
 
 
